@@ -1,2 +1,2 @@
 # docker-ui
-Cloud at Cost UI DockerImage and deployment usage
+Cloud at Cost UI Docker Image and deployment usage
