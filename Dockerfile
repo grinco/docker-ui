@@ -1,4 +1,4 @@
-FROM debian:7
+FROM ubuntu:16.04 
 MAINTAINER Charlie Drage <charlie@cloudatcost.com>
 
 RUN apt-get update && apt-get install -y build-essential ruby ruby-dev openssl ca-certificates git
