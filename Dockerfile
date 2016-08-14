@@ -10,4 +10,8 @@ RUN git clone https://github.com/cloudatcost/ui
 WORKDIR ui
 RUN bundle install
 EXPOSE 8080 80
+ENV CAC_API_KEY YOURKEYHERE
+ENV CAC_API_LOGIN example@example.com
+ENV CAC_BASIC_HTTP_PASS password
+ENV CAC_BASIC_HTTP_USER username
 CMD bundle exec ruby app.rb
